@@ -2,7 +2,8 @@
 <html>
 <head>
  <link rel="stylesheet" type="text/css" href="Css/style.css">
- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+	-->
 	<title>Obaid Kazi: A Web Developer</title>
 </head>
 <body>
@@ -36,22 +37,22 @@
 				<div>
 				Email
 				</div>
-				<input type="email" name="user-email" value="" placeholder="usermail@example.com">
+				<input id="email" type="email" name="user-email" value="" placeholder="usermail@example.com" required="required">
 
 			</label>
 			<label>
 				<div>
 				Subject
 				</div>
-				<input type="text" name="subject" value="" placeholder="Enter the Some discription">
+				<input id= "sub" type="text" name="subject" value="" placeholder="Enter the Some discription" required="required">
 
 			</label>
 			<label>
 				<div>
 				Message
 				</div>
-				<textarea name="message"></textarea><br/>
-				<input type="Submit" name="Submit" value="Submit">
+				<textarea id="mes" name="message"></textarea><br/>
+				<input id="sub" type="Submit" name="Submit" value="Submit">
 				</form>
 			</label>
 		</div>
@@ -69,5 +70,6 @@
 			&copy;All right  reserved - Obaid Kazi
 		</div>
 	</footer>
+	<script type="text/javascript" src="Js/validate.js" ></script>
 </body>
 </html>
