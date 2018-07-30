@@ -81,16 +81,19 @@ footer{
 }
 .gallary figure img{
 	
-	width: 400px;
-	height: 400px;
+	width: 200px;
+	height: 200px;
 	position: relative;
 	border-radius: 10%;
 	border: 2px solid black;
 }
+.gallary{
+	text-align:center; 
+}
 .gallary figure{
+	display: inline-block;
 	border: 1px solid black;
 	position: relative;
-	float: left;
 	padding: 5px;
 	margin: 10px;
 	text-align: center;
